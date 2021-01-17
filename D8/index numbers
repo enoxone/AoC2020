@@ -1,0 +1,17 @@
+328 jumps to a win
+523 is a nop that could jump to 328, but not in loop
+74 and 486 are jumps that could jump to 328
+375 and 526 lead to 480, and could hit 486 with a single nop, but weren't in loop 486 deadend
+332 is a nop that could lead to 73 not in loop
+78 and 374 are jumps that lead to 73
+nothing leads to 78
+330 and 481 lead to 374 are nops but no loop
+15 leads to 374
+71 and 331 lead to 11
+331 is a nop but not loop
+522 is a nop to 67 but does not loop
+22 is a jump to 67
+look at jump index 72 leading to 21 72 is a nogo
+look at jump index 333 leading to 21
+look at jump index 483 leading to 21
+look at jump index 530 leading to 21
