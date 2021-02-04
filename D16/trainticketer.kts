@@ -49,7 +49,7 @@ fun main() {
     }
     var total : Long = 1
     var myTicket = arrayOf(61,151,59,101,173,71,103,167,127,157,137,73,181,97,179,149,131,139,67,53)
-    for (dep in 0..5) {
+    for (dep in 0..5 {
         total *= myTicket[validCount[dep].indexOf(true)].toLong()
         println(myTicket[validCount[dep].indexOf(true)])
     }
